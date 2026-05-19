@@ -1,0 +1,53 @@
+/* 🔥 HERO SECTION */
+.hero {
+  height: 100vh;  /* full screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #668dcf, #45639b);
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* 🔽 CONTENT SECTION */
+.content {
+  display: flex;
+  height: 100vh;  /* full screen split */
+}
+
+/* 📦 CARDS */
+.card {
+  width: 50%;  /* EXACT HALF */
+  padding: 40px;
+  overflow-y: auto;
+}
+
+/* Left */
+.card:first-child {
+  background: #f5f7fa;
+}
+
+/* Right */
+.card:last-child {
+  background: #eef2f7;
+}
+
+/* Formula style */
+.formula {
+  background: white;
+  padding: 8px;
+  border-radius: 6px;
+  margin: 8px 0;
+  font-weight: bold;
+}

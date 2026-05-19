@@ -1,0 +1,95 @@
+.compare-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Controls */
+.controls {
+  margin: 20px;
+}
+
+.controls select {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.controls button {
+  padding: 8px 15px;
+  background: #444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Chart */
+.chart {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Models layout */
+.compare-metrics {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+/* Each model */
+.model-box {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 14px;
+  width: 350px;
+}
+
+/* Metrics row */
+.metrics {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+/* Individual metric */
+.metric-box {
+  background: white;
+  padding: 15px;
+  width: 90px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+/* Text */
+.metric-box h4 {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.metric-box p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Colors */
+.bad {
+  color: red;
+}
+
+.good {
+  color: #2a5298;
+}
+
+/* Result box */
+.result-box {
+  margin-top: 25px;
+  padding: 15px;
+  background: #e8f5e9;
+  border-radius: 12px;
+  font-weight: bold;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
